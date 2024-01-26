@@ -29,11 +29,76 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.3/components/heroes/hero-1/assets/css/hero-1.css" />
 
 </head>
 
 <body>
-  <header class=" px-lg-5 navbar navbar-expand-lg bg-body-tertiary border-bottom fixed-top mb-5">
+  <header>
+    <nav class="navbar navbar-expand-lg  nav-fondo px-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/aksaya_logotipo.png" alt="Bootstrap" width="229" height="71">
+        </a>
+        <button class="navbar-toggler border-light bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active link-activo" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./views/about-me.html">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./views/cronograma.html">Cronograma</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./views/clases.html">Clases</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./views/agenda.html">Agenda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./views/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Idioma
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Español</a></li>
+                <li><a class="dropdown-item" href="#">English</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled link-disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn boton-call" type="submit">Iniciar Sesión</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero 1 - Bootstrap Brain Component -->
+  <section class="bsb-hero-1 px-3 bsb-overlay bsb-hover-pull hero-efecto" style="background-image: url('./assets/images/image1.jpg');">
+    <div class="container">
+      <div class="row justify-content-md-center centrado-texto">
+        <div class=" col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6 text-center text-white">
+          <h1 class="display-3 fw-bold mb-3 titulos">"Explora la Eternidad"</h1>
+          <p class="lead mb-5 textos">El Vinyasa Yoga es un estilo dinámico y fluido de práctica de yoga que sincroniza la respiración con movimientos suaves y continuos. Este enfoque crea una experiencia de flujo constante entre las posturas, fomentando la conexión mente-cuerpo.</p>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  </header>
+  <!-- <header class=" px-lg-5 navbar navbar-expand-lg bg-body-tertiary border-bottom fixed-top mb-5">
     <div class="container-fluid">
       <h3 class="navbar-brand" href="#">YOGA Producto</h3>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -78,9 +143,10 @@
         </ul>
       </nav>
     </div>
-  </header>
+    
+  </header> -->
 
-  <main class="py-5">
+  <!-- <main class="py-5">
     <section class="portada_index container pt-5">
       <div class="row">
         <div class=" col-lg-6 order-lg-2 order-md-2">
@@ -165,7 +231,7 @@
       </div>
     </footer>
 
-  </main>
+  </main> -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
