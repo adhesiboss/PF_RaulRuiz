@@ -4,21 +4,22 @@
 $primary-color: #f8f8f8;
 $secondary-color: #0c0b0b;
 $accent-color: #f87c00;
-$transparent-white:#ebebeb; 
+$transparent-black:rgb(12 11 11 / 15%); 
 
 // Tamaños de fuente
-$base-font-size: 16px;
+$base-font-size: 14px;
+$base-font-size-xs: 12px;
 $heading-font-size: 24px;
 
 // Espaciado
-$base-spacing: 10px;
+$base-spacing: -3px;
 
 // Bordes y radios
 $border-width: 1px;
 $border-radius: 4px;
 
 // Opacidades
-$base-opacity: 0.8;
+$base-opacity: 0.3;
 
 // Fuentes
 $base-ff-poppins: 'Poppins',
@@ -29,6 +30,9 @@ sans-serif;
 // Z-index
 $z-index-header: 100;
 $z-index-modal: 200;
+$z-index-imagen: -2;
+
+
 
 // Animaciones
 $transition-duration: 0.3s;
@@ -67,14 +71,4 @@ $extra-large-desktop: "only screen and (min-width: #{$breakpoint-xl})";
   padding: 0;
 }
 
-body {
-  background-color: orangered;
-}
 
-a {
-  color: black;
-  font-weight: 600;
-  text-decoration: none;
-  font-size: 1.2rem;
-  line-height: 2rem;
-}
