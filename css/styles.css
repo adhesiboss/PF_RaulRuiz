@@ -7,6 +7,27 @@
   background-color: rgba(12, 11, 11, 0.15);
 }
 
+.black {
+  background-color: #0c0b0b;
+}
+
+.navbar-collapse.show {
+  padding-top: 20px;
+  margin-bottom: 120px;
+}
+
+@media (max-width: 375px) {
+  .img-responsive {
+    width: 150px;
+    height: auto;
+  }
+  .navbar-nav {
+    flex-direction: row;
+  }
+  .textos {
+    font-size: 12px !important;
+  }
+}
 .hero-efecto {
   z-index: -2;
   top: -100px;
@@ -22,8 +43,8 @@
   color: #f87c00 !important;
 }
 
-.link-disabled {
-  color: rgba(12, 11, 11, 0.15) !important;
+.dropdown-toggle:after {
+  color: #f87c00 !important;
 }
 
 .nav-item a:hover {

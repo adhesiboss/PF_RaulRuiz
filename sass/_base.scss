@@ -7,7 +7,8 @@ $accent-color: #f87c00;
 $transparent-black:rgb(12 11 11 / 15%); 
 
 // Tamaños de fuente
-$base-font-size: 16px;
+$base-font-size: 14px;
+$base-font-size-xs: 12px;
 $heading-font-size: 24px;
 
 // Espaciado
@@ -69,4 +70,5 @@ $extra-large-desktop: "only screen and (min-width: #{$breakpoint-xl})";
   margin: 0;
   padding: 0;
 }
+
 

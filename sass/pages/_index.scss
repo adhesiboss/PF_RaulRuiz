@@ -1,46 +1,74 @@
-
 .nav-fondo {
   background-color: $transparent-black;
 }
 
+.black {
+  background-color: $secondary-color;
+
+}
+
+.navbar-collapse.show {
+  padding-top: 20px;
+  margin-bottom: 120px;
+}
+@media (max-width: 375px) {
+  .img-responsive {
+		width: 150px;
+		height: auto; 
+	}
+	.navbar-nav {
+		flex-direction: row; 
+	}
+	.textos {
+		font-size: $base-font-size-xs!important;
+	}
+}
+
 .hero-efecto {
   z-index: $z-index-imagen;
-	top: -100px;
-	height: 90vh;
+  top: -100px;
+  height: 90vh;
 }
-.nav-item a{
-	color: $primary-color;
-	white-space: nowrap;
+
+.nav-item a {
+  color: $primary-color;
+  white-space: nowrap;
 }
-.link-activo{
-	color: $accent-color!important;
+
+.link-activo {
+  color: $accent-color !important;
 }
-.link-disabled{
-	color:$transparent-black!important;
+
+.dropdown-toggle:after{
+	color: $accent-color !important;}
+
+.nav-item a:hover {
+  color: $accent-color;
 }
-.nav-item a:hover{
-	color: $accent-color;
+
+.centrado-texto {
+  margin-top: 9rem !important;
 }
-.centrado-texto{
-	margin-top: 9rem!important;
+
+.boton-call {
+  padding: 5px 30px !important;
+  color: $accent-color !important;
+  border-color: $accent-color !important;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5rem !important;
+  -webkit-border-radius: 5rem !important;
+  -moz-border-radius: 5rem !important;
+  -ms-border-radius: 5rem !important;
+  -o-border-radius: 5rem !important;
+  white-space: nowrap;
 }
-.boton-call{
-	padding: 5px 30px!important;
-	color: $accent-color!important;
-	border-color: $accent-color!important;
-	border-style: solid;
-	border-width: 1px;
-	border-radius: 5rem!important;
-	-webkit-border-radius: 5rem!important;
-	-moz-border-radius: 5rem!important;
-	-ms-border-radius: 5rem!important;
-	-o-border-radius: 5rem!important;
-	white-space: nowrap;
+
+.titulos {
+  font-family: $base-ff-tenor;
+  letter-spacing: $base-spacing;
 }
-.titulos{
-	font-family: $base-ff-tenor;
-	letter-spacing: $base-spacing;
-}
-.textos{
-	font-family: $base-ff-poppins;
+
+.textos {
+  font-family: $base-ff-poppins;
 }
