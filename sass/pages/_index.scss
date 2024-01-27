@@ -28,7 +28,9 @@
   z-index: $z-index-imagen;
   top: -100px;
   height: 90vh;
+  background-image: url('../../assets/images/image1.jpg');
 }
+
 
 .nav-item a {
   color: $primary-color;
@@ -71,4 +73,17 @@
 
 .textos {
   font-family: $base-ff-poppins;
+}
+.fondo-textos{
+	background-color: $primary-color;
+  margin-top: -100px;
+}
+.borde-card{
+  padding: 15px;
+  border: 1px solid $secondary-color;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
