@@ -94,4 +94,19 @@
   -o-border-radius: 10px;
 }
 
+.boton-go {
+  padding: 12px 20px !important;
+  background-color: #0c0b0b !important;
+  color: #f8f8f8 !important;
+  border-color: #0c0b0b !important;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5rem !important;
+  -webkit-border-radius: 5rem !important;
+  -moz-border-radius: 5rem !important;
+  -ms-border-radius: 5rem !important;
+  -o-border-radius: 5rem !important;
+  white-space: nowrap;
+}
+
 /*# sourceMappingURL=styles.css.map */
