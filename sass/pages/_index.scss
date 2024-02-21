@@ -11,17 +11,21 @@
   padding-top: 20px;
   margin-bottom: 120px;
 }
+
 @media (max-width: 375px) {
   .img-responsive {
-		width: 150px;
-		height: auto; 
-	}
-	.navbar-nav {
-		flex-direction: row; 
-	}
-	.textos {
-		font-size: $base-font-size-xs!important;
-	}
+    width: 150px;
+    height: auto;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .textos {
+    font-size: $base-font-size-xs !important;
+  }
+
 }
 
 .hero-efecto {
@@ -41,8 +45,9 @@
   color: $accent-color !important;
 }
 
-.dropdown-toggle:after{
-	color: $accent-color !important;}
+.dropdown-toggle:after {
+  color: $accent-color !important;
+}
 
 .nav-item a:hover {
   color: $accent-color;
@@ -65,20 +70,34 @@
   -o-border-radius: 5rem !important;
   white-space: nowrap;
 }
-
+.titulo1 {
+  font-family: $base-ff-tenor;
+  letter-spacing: $base-spacing;
+  
+}
 .titulos {
   font-family: $base-ff-tenor;
   letter-spacing: $base-spacing;
+  text-decoration-line: underline;
+  text-decoration-color: $secondary-color;
+  text-decoration-thickness: 1px;
+  text-decoration-style: solid;
+  text-underline-offset: 0.5em;
+  -moz-text-decoration-color: $secondary-color;
+  padding-bottom: 20px;
+  
 }
 
 .textos {
   font-family: $base-ff-poppins;
 }
-.fondo-textos{
-	background-color: $primary-color;
+
+.fondo-textos {
+  background-color: $primary-color;
   margin-top: -100px;
 }
-.borde-card{
+
+.borde-card {
   padding: 15px;
   border: 1px solid $transparent-black;
   border-radius: 10px;
@@ -87,4 +106,40 @@
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 
+}
+
+.boton-go {
+  padding: 12px 20px !important;
+  background-color: $secondary-color !important;
+  color: $primary-color !important;
+  border-color: $secondary-color !important;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5rem !important;
+  -webkit-border-radius: 5rem !important;
+  -moz-border-radius: 5rem !important;
+  -ms-border-radius: 5rem !important;
+  -o-border-radius: 5rem !important;
+  white-space: nowrap;
+}
+
+.btn {
+  display: block;
+  background-color: var(--secondary);
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card-body {
+  display: grid !important;
+  padding: 0 0 16px 0 !important;
+}
+
+.card,
+.card-header {
+  border: none !important;
+  background-color: $primary-color !important;
 }
