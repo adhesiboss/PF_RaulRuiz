@@ -70,9 +70,21 @@
   white-space: nowrap;
 }
 
+.titulo1 {
+  font-family: "Tenor Sans", sans-serif;
+  letter-spacing: -3px;
+}
+
 .titulos {
   font-family: "Tenor Sans", sans-serif;
   letter-spacing: -3px;
+  text-decoration-line: underline;
+  text-decoration-color: #0c0b0b;
+  text-decoration-thickness: 1px;
+  text-decoration-style: solid;
+  text-underline-offset: 0.5em;
+  -moz-text-decoration-color: #0c0b0b;
+  padding-bottom: 20px;
 }
 
 .textos {
@@ -107,6 +119,27 @@
   -ms-border-radius: 5rem !important;
   -o-border-radius: 5rem !important;
   white-space: nowrap;
+}
+
+.btn {
+  display: block;
+  background-color: var(--secondary);
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card-body {
+  display: grid !important;
+  padding: 0 0 16px 0 !important;
+}
+
+.card,
+.card-header {
+  border: none !important;
+  background-color: #f8f8f8 !important;
 }
 
 /*# sourceMappingURL=styles.css.map */
