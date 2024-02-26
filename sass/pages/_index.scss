@@ -122,6 +122,20 @@
   -o-border-radius: 5rem !important;
   white-space: nowrap;
 }
+.boton-go-line {
+  padding: 12px 20px !important;
+  background-color: transparent !important;
+  color: $secondary-color !important;
+  border-color: $secondary-color !important;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5rem !important;
+  -webkit-border-radius: 5rem !important;
+  -moz-border-radius: 5rem !important;
+  -ms-border-radius: 5rem !important;
+  -o-border-radius: 5rem !important;
+  white-space: nowrap;
+}
 
 .btn {
   display: block;
@@ -142,4 +156,28 @@
 .card-header {
   border: none !important;
   background-color: $primary-color !important;
+}
+.icons{
+  color: $secondary-color !important;
+  font-size: $icon-font-size;
+
+
+}
+.date{
+  padding: 0!important;
+  margin: 0!important;
+  font-size: $base-font-size-xs;
+  color: $transparent-black-date;
+}
+.hero-efecto-contacto {
+  z-index: $z-index-imagen;
+  top: -10;
+  background-image: url('../../assets/images/image1.jpg');
+}
+.centrado-texto-contacto {
+  margin-top: 0 !important;
+
+}
+.form{
+  width: 400px;
 }
