@@ -171,12 +171,12 @@
 }
 .hero-efecto-contacto {
   z-index: $z-index-imagen;
-  top: 0;
-  height: 100vh;
+  top: -10;
   background-image: url('../../assets/images/image1.jpg');
 }
 .centrado-texto-contacto {
-  margin-top: 0.5rem !important;
+  margin-top: 0 !important;
+
 }
 .form{
   width: 400px;
