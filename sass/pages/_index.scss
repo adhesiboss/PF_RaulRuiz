@@ -163,3 +163,21 @@
 
 
 }
+.date{
+  padding: 0!important;
+  margin: 0!important;
+  font-size: $base-font-size-xs;
+  color: $transparent-black-date;
+}
+.hero-efecto-contacto {
+  z-index: $z-index-imagen;
+  top: 0;
+  height: 100vh;
+  background-image: url('../../assets/images/image1.jpg');
+}
+.centrado-texto-contacto {
+  margin-top: 0.5rem !important;
+}
+.form{
+  width: 400px;
+}

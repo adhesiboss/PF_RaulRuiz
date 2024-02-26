@@ -162,4 +162,26 @@
   font-size: 40px;
 }
 
+.date {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 12px;
+  color: rgba(12, 11, 11, 0.4);
+}
+
+.hero-efecto-contacto {
+  z-index: -2;
+  top: 0;
+  height: 100vh;
+  background-image: url("../../assets/images/image1.jpg");
+}
+
+.centrado-texto-contacto {
+  margin-top: 0.5rem !important;
+}
+
+.form {
+  width: 400px;
+}
+
 /*# sourceMappingURL=styles.css.map */
